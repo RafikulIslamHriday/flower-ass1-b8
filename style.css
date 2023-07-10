@@ -4,6 +4,27 @@
   padding: 0;
   font-family: "Lato", sans-serif;
 }
+.container {
+  max-width: 1400px;
+  margin: 100px auto;
+  /* border: 2px solid black; */
+}
+.section-title {
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: #272727;
+  padding: 5px;
+}
+.section-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px auto 50px;
+  text-align: center;
+  max-width: 580px;
+}
 
 /* header part */
 .banner {
@@ -46,4 +67,36 @@
   color: #fff;
   padding: 20px 40px;
   border: none;
+}
+
+/* main part */
+/* featured section */
+
+.featured-cards {
+  display: flex;
+  justify-content: space-around;
+}
+.featured-card {
+  width: 450px;
+  
+}
+.featured-img {
+    /* padding: 110px 45px; */
+    display: flex;
+    justify-content: center;    
+}
+
+#featured-card1 {
+  background-color: #fff;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+
+}
+#featured-card2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+#featured-card3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
 }
