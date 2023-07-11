@@ -6,7 +6,7 @@
 }
 .container {
   max-width: 1400px;
-  margin: 100px auto;
+  margin: 110px auto;
   /* border: 2px solid black; */
 }
 .section-title {
@@ -77,26 +77,109 @@
   justify-content: space-around;
 }
 .featured-card {
-  width: 450px;
-  
+  width: 450px; 
+}
+.featured-card p{
+  text-decoration: underline;
+  text-align: center;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  padding: 30px 10px 20px;
 }
 .featured-img {
     /* padding: 110px 45px; */
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    height: 530px;   
 }
+.featured-img img{
+  padding: 20px 20px 0 ;
+}
+
 
 #featured-card1 {
   background-color: #fff;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
-
+}
+#featured-card1 img{
+  max-width: 310px;
 }
 #featured-card2 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
+#featured-card2 img{
+  max-width: 370px;
+}
 #featured-card3 {
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
+}
+
+/* hot deal section */
+.hot-deal-section{
+  background: rgba(229, 84, 115, 0.1);
+padding: 100px 250px;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+}
+.info-title{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.info-description{
+  color: rgba(39, 39, 39, 0.6);
+  max-width: 600px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 25px 0;
+  text-align: center;
+}
+/* social section */
+
+.social-img-contain{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.social-img{
+  max-width: 340px;
+  max-height: 400px;
+}
+.social-img img {
+  width: 100%;
+}
+
+/* last deal section */
+.last-deal-section{
+  background-image: url('Flower Asset/Rectangle 9.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 120px 0;
+}
+.last-deal-description{
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding: 10px 0 50px;
+  
+}
+.input-container input{
+  width: 40%;
+  padding: 10px 15px;
+  font-size: 20px;
+  height: 44px;
+  border-radius: 8px;
+  border: none;
+  margin-right: 15px;
 }
